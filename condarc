@@ -1,0 +1,11 @@
+# This is a conda run configuration
+# channel locations. These override conda defaults, i.e., conda will
+# search *only* the channels listed here, in the order given.
+channels:
+  - http://repo.continuum.io/pkgs/free
+  - http://repo.continuum.io/pkgs/gpl
+  - http://repo.continuum.io/pkgs/pro
+  - http://conda.binstar.org/jni
+
+
+binstar_upload: yes
